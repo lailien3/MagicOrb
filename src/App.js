@@ -1,7 +1,7 @@
 import './App.css';
 import mainBG from '../src/media/mainBG.mp4';
 import React, { useState } from 'react';
-import { generateMagicResponse } from './QuestionAndAnswer';
+import generateMagicResponse from './QuestionAndAnswer';
 
 function App() {
   const [userName, setUserName] = useState("Laila");
@@ -29,7 +29,7 @@ function App() {
           value = {userQuestion}
           onChange = {(e) => setUserQuestion(e.target.value)}
         />
-        <button>onClick={handleQuestionSubmit} Ask </button>
+        <button onClick={handleQuestionSubmit}>Ask</button>
       </div>
       <div className='response-container'>
         {magicResponse && `Magic Eight ball says ... ${magicResponse}.`}
