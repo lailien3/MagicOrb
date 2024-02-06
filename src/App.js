@@ -20,8 +20,8 @@ function App() {
 
       <div className='welcome-container'>
         {userName ? `Welcome ${userName}!` : `Welcome!`}
-
       </div>
+
       <div className='question-container'>
         <input
           type = 'text'
@@ -31,6 +31,7 @@ function App() {
         />
         <button onClick={handleQuestionSubmit}>Ask</button>
       </div>
+
       <div className='response-container'>
         {magicResponse && `Magic Eight ball says ... ${magicResponse}.`}
       </div>
