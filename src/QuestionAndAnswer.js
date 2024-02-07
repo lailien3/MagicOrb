@@ -27,7 +27,7 @@ if (randomNumber === 0) {
  answer = "signs point to yes";
 }
 
-console.log(`Magic Eight ball says ... ${answer}.`);
+// console.log(`Magic Orb says ... ${answer}.`);
 
 return answer;
 }
