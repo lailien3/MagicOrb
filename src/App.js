@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import generateMagicResponse from './QuestionAndAnswer';
 
 function App() {
-  const [userName, setUserName] = useState("Laila");
+  const [userName, setUserName] = useState("aseel");
   const [userQuestion, setUserQuestion] = useState("");
   const [magicResponse, setMagicResponse] = useState("");
 
@@ -33,7 +33,7 @@ function App() {
       </div>
 
       <div className='response-container'>
-        {magicResponse && `Magic Eight ball says ... ${magicResponse}.`}
+        {magicResponse && `Magic Orb says ... ${magicResponse}.`}
       </div>
 
     </div>
