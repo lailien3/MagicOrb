@@ -29,7 +29,9 @@ The build is minified and the filenames include the hashes.
 ## plan
 
 • input question into text box
+
 • question fades into the orb
+
 • answer fades into view
 
 •-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•-•
